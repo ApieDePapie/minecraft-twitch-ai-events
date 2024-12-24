@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "twitch-ai-events",
+  "version": "${version}",
+  "name": "Twitch AI Events 2025",
+  "description": "AI-themed Twitch donation events for New Year 2025!",
+  "authors": [
+    "OpenHands"
+  ],
+  "contact": {
+    "homepage": "https://all-hands.dev/",
+    "sources": "https://github.com/openhands/twitch-ai-events"
+  },
+  "license": "MIT",
+  "icon": "assets/twitch-ai-events/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.allhands.twitchaievents.TwitchAIEvents"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.3",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
